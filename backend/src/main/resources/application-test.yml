@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: false
+  flyway:
+    locations: classpath:db/migration
+
+app:
+  jwt:
+    secret: test-only-hearthline-jwt-secret-32-characters
+    cookie-secure: false
+  payment:
+    mode: demo
+    allow-simulated-failure: true

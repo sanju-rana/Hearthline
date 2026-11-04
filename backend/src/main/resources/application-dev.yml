@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/hearthline}
+    username: ${SPRING_DATASOURCE_USERNAME:hearthline}
+    password: ${SPRING_DATASOURCE_PASSWORD:hearthline}
+  jpa:
+    show-sql: false
+
+app:
+  payment:
+    mode: demo
+    allow-simulated-failure: true
+  jwt:
+    cookie-secure: false
