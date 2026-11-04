@@ -1,3 +1,8 @@
+
+**GitHub Repository:** https://github.com/sanju-rana/Hearthline
+
+**Live Application:** Not deployed yet.
+
 # Technical Design Document
 
 ## 1. Project title
